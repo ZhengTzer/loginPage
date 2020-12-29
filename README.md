@@ -5,9 +5,14 @@ A simple log in page without db connection for testing
 
 ## Features
 - Check if information doesn't match, return error
-- Else, bring the person first name into welcome page
+- Else, bring the person first name into welcome page as success indicator
+- Upon success, set signed cookie
+- check for cookie upon return
+- remove cookie when logout
 
 ## To be developed
+- [X] set cookie
+- [X] remove cookie
 - [ ] db connection
 - [ ] forgot password sending out email to remind user
 
